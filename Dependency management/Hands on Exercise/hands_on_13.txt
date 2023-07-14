@@ -1,0 +1,9 @@
+Setting and installing in go path
+
+write in terminal
+-> go env
+This will show you the GOPATH
+
+go in bin inside that there and do install
+cd bin
+go install .

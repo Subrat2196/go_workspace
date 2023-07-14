@@ -1,0 +1,48 @@
+Dependency management means we need to handle the depencies between the repositories 
+e.g -> Lets say repo 1 is using a code from repo 2 and repo 2 is using a code from repo 3,
+these all are part of the fact that we can use code from packages outside of the package we are
+working on. Therefore we can see a relationship like 3 depends on 2 and 2 depends on 1 Therefore
+3 depends on 1 also, and if lets say we have 2 how will it impact 3 and how to handle it.
+
+Sphagetti Code -> Programming code that is complex, tangled and difficult to manage, all the code
+in one file and in an unstructured way.
+
+Modular Code -> It is the structured programming way, breaking down a software project into smaller,
+manageable tasks, and managing each task in a logical way. Each module works independently to provide
+an overall functionality to the entire project
+
+DRY code -> Don't repeat yourself code
+   it means basically wrting code such that if in any function error comes or we need to use a particular
+   functionality it will be available to us seperately so that we can use it in just one line to call it.
+   That's why people say try to write DRY code more often.
+
+
+go mod init (module) -> initalize the module here
+e.g -> go mod init github.com/Subrat2196/go_workspace
+
+go mod tidy -> handling any misconfiguration
+
+Git version Tagging -> git tag v1.4 (tag a commit)
+git push origin --tags
+
+What we need ->
+1 - git tag
+2 - git tag vN.N.N
+3 - git push origin --tags
+
+Steps ->
+
+1 - git add -all
+2 - git commit -m "commit message"
+3 - git tag v1.2.3
+4 - git push origin -tags
+
+
+git tag -> see what tags are present
+tag is like an instance of code that we have saved
+
+Deleting a folder in commands line :
+
+rm -rf <folder name>
+e.g rm -rf go_workspace
+-> here rm -r means remove recursively

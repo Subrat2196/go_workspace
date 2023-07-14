@@ -1,0 +1,9 @@
+Go to the directory
+
+go get github.com/Subrat2196/Puppy@v1.2.0
+-> write the above command in the main package location
+ to use functions within the Puppy package in your main package
+-> here we can also give the version i.e which version of code we want to use
+-> for latest version we can give
+
+go get github.com/Subrat2196/Puppy@latest

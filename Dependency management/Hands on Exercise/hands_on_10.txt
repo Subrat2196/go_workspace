@@ -1,0 +1,19 @@
+we need to do this in terminal
+
+mkdir hey_there
+cd hey_there
+go mod init module_name
+
+touch main.go
+
+Writing go code for Hello world inside main
+
+package main
+import "fmt"
+
+func main(){
+    fmt.Println("Hello World")
+}
+
+run using
+go mod main.go

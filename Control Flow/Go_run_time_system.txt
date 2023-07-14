@@ -1,0 +1,13 @@
+The Go runtime system is a component of the Go Programming language that manages and schedules the
+execution of Go programs.It includes a number of features that make it easy to write concurrent
+and parallel programs in Go
+
+   **  We can say like tell me how does the go runtime system reads through our code **
+
+Responsibility of Go runtime system :-
+
+1 - Go Routine Management
+2 - Garbage Collection
+3 - Memory Management
+4 - Channel Management
+5 - Stack Management

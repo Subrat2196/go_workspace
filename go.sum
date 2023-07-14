@@ -1,0 +1,4 @@
+github.com/Subrat2196/Puppy v0.0.0-20230713082458-60350e3279b9 h1:BpHwKZ9DGYj+zjJD6u+PI5Lfynne4tUx7ocj0Sy9NjU=
+github.com/Subrat2196/Puppy v0.0.0-20230713082458-60350e3279b9/go.mod h1:aEol5ljzX8ll52hoOEWwTLhRFxjwlLytc9N2F1PekBI=
+golang.org/x/exp v0.0.0-20230711153332-06a737ee72cb h1:xIApU0ow1zwMa2uL1VDNeQlNVFTWMQxZUZCMDy0Q4Us=
+golang.org/x/exp v0.0.0-20230711153332-06a737ee72cb/go.mod h1:FXUEEKJgO7OQYeo8N01OfiKP8RXMtf6e8aTskBGqWdc=

@@ -1,0 +1,11 @@
+A hash algorithm is a mathematical function that takes in a variable sized input, such as a file
+or message, and produces a fixed-size output, known as a hash or digest.
+A small change in I/P produces an entirely diff output
+Therefore hashes are very good to know if anything changed in the i/p
+
+When a user enters a password it's hashed and stored in database 
+and everytime the user logs in again then your i/p is checked with the hashed password you 
+created the first time
+
+Asynchronous encryption
+(Public/Private key encryption)

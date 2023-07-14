@@ -1,0 +1,8 @@
+Types of Control flow
+
+1 - Sequential
+2 - Conditional
+3 - Loop
+
+There is a way you could run code before func main(),
+using func init(), it is the only function that can run before the main function

@@ -1,0 +1,5 @@
+Here we need to build an executable for different operating system
+
+GOOS=windows go build file_name
+GOOS=darwin go build file_name
+GOOS=linux go build file_name
