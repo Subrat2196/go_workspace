@@ -1,1 +1,22 @@
 Concurrency and parallelism are related but different concepts in Programming
+
+Concurrency is a way to write code using concurrent design pattern and only after that if we have multiple
+cores in computers and we can run that code parallely in multiple cores.
+
+Using concurrency we can create goroutines and goroutines can run on their own
+like independent programs e.g func main is a goroutine and we can have many like it that
+can run concurrently to that
+
+e.g 
+
+go func() {
+    time.Sleep(d1 * time.Millisecond)
+    ch1 <- 42
+}()
+
+The above statements makes a goroutine sleep for some time and
+ after that pushes value 41 to channel 1
+
+creating channels :- 
+ch1 := make(chan int)
+ch2 := make(chan int)
