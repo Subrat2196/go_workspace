@@ -6,8 +6,30 @@ and parallel programs in Go
 
 Responsibility of Go runtime system :-
 
-1 - Go Routine Management
-2 - Garbage Collection
-3 - Memory Management
-4 - Channel Management
-5 - Stack Management
+1 - Go Routine Management - Goroutines are light weight threads that enable concurrent execution
+of the go programs,GRM manages the creation and destruction of goroutines
+2 - Garbage Collection - It automatically frees memory that is no longer needed by the program
+3 - Memory Management - allocates and deallocates memory to programs
+4 - Channel Management - helps create and destroy channels for goroutines communication and handles
+correct ordering of the messages being sent.
+5 - Stack Management - each goroutine has it's own stack to store local variable and function arguments
+
+Stack memory vs Heap memory
+
+Stack holds variables that are local to a function or a goroutine, stack is like self-cleaning since
+as soon as the function ends all the memory is also deallocated, it follows LIFO type.
+Heap holds variables with longer lifespans, these variable memory need to be explicity deallocated
+by the program or deallocates only when the program exits. Heap is more flexible than stack but is slower
+
+Garbage collector manages the heap 
+
+Stack escape analysis - variable that escape the stack means they are in heap.
+
+Difference between Go Runtime System and the Compiler :-
+
+The Go Compiler translated the GO code into machine readable binary code that can be executed
+by the computer.
+Main functions - Parsing, Type Checking, Optimization, Code generation
+
+
+
