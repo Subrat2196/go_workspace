@@ -1,0 +1,7 @@
+Here we use the commands
+
+shasum --help 
+
+shasum -a 256 file_name_that_you_want_to_hash
+The same i/p provides the same hash in output, but a slight change in i/p file will completely
+change the hash
