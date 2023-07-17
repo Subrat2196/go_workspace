@@ -1,0 +1,6 @@
+-> We have an underying array inside slice and it consists of a structure that contains
+a pointer to an array,length and capacity
+
+-> there when we say a:=b where b is an existing slice what a does is just point to where
+b is pointing and we can access it also
+
