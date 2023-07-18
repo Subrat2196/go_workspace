@@ -1,0 +1,7 @@
+Inlining decisions in programming is an optimization that involves replacing a a function call site 
+with the body of the called function.
+Inlining decisions refer to choices made by the compiler to opimize the run
+
+Inlining means wherever functions are called it will inline it near to main,or on top of main,
+so that we can save the time to jump to a particular function as it's just above use
+

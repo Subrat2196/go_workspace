@@ -1,0 +1,21 @@
+How to computers store memory?
+
+It's like a locker in dressing rooms
+(each locker has a number(address),space,lock)
+
+Pointer is a variable that holds the memory address
+
+Pointer Semantics vs Value Semantics -> pointer semantics means when the address
+of a variable is passed to a function , value semantics means when a value of a variable
+is passed to a function
+
+Pointer and Value Heuristics
+
+Value semantics should be used as much possible, only if mandated use pointer semantics, since 
+if error comes somewhere we dont want every function to point to a particular place
+
+Pointer semantics are used for large data (64 B or more)
+
+Stack is a self cleaning data structure
+Heap is an expensive DS and requires garbage collection
+

@@ -1,0 +1,7 @@
+Go has an inbuilt functionality called the escape analysis that decides whether a particular variable
+should be allocated to stack or the heap
+
+we can print escape analysis info using "-gcflags" flag followed -m when running either go build or go run
+commands
+
+'-m' is the function in gcflags that instructs the escape analysis info to get printed
